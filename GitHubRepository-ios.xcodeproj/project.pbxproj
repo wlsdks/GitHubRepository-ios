@@ -11,6 +11,7 @@
 		EC792ABF2A20F36200880E10 /* RepositoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC792ABE2A20F36200880E10 /* RepositoryListViewController.swift */; };
 		EC792AC12A20F40100880E10 /* RepositoryListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC792AC02A20F40100880E10 /* RepositoryListCell.swift */; };
 		EC792AC42A20F43100880E10 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = EC792AC32A20F43100880E10 /* SnapKit */; };
+		EC792AC62A20F75400880E10 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC792AC52A20F75400880E10 /* Repository.swift */; };
 		EC9F3C0A2A1BAFA30093F1DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9F3C092A1BAFA30093F1DF /* AppDelegate.swift */; };
 		EC9F3C0C2A1BAFA30093F1DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9F3C0B2A1BAFA30093F1DF /* SceneDelegate.swift */; };
 		EC9F3C132A1BAFA30093F1DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC9F3C122A1BAFA30093F1DF /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		E900D028E96D0F2DC9A3A375 /* Pods-GitHubRepository-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubRepository-ios.release.xcconfig"; path = "Target Support Files/Pods-GitHubRepository-ios/Pods-GitHubRepository-ios.release.xcconfig"; sourceTree = "<group>"; };
 		EC792ABE2A20F36200880E10 /* RepositoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListViewController.swift; sourceTree = "<group>"; };
 		EC792AC02A20F40100880E10 /* RepositoryListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryListCell.swift; sourceTree = "<group>"; };
+		EC792AC52A20F75400880E10 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		EC9F3C062A1BAFA30093F1DF /* GitHubRepository-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHubRepository-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC9F3C092A1BAFA30093F1DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC9F3C0B2A1BAFA30093F1DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				EC9F3C122A1BAFA30093F1DF /* Assets.xcassets */,
 				EC9F3C142A1BAFA30093F1DF /* LaunchScreen.storyboard */,
 				EC9F3C172A1BAFA30093F1DF /* Info.plist */,
+				EC792AC52A20F75400880E10 /* Repository.swift */,
 				EC792ABE2A20F36200880E10 /* RepositoryListViewController.swift */,
 				EC792AC02A20F40100880E10 /* RepositoryListCell.swift */,
 			);
@@ -215,6 +218,7 @@
 			files = (
 				EC9F3C0A2A1BAFA30093F1DF /* AppDelegate.swift in Sources */,
 				EC792ABF2A20F36200880E10 /* RepositoryListViewController.swift in Sources */,
+				EC792AC62A20F75400880E10 /* Repository.swift in Sources */,
 				EC9F3C0C2A1BAFA30093F1DF /* SceneDelegate.swift in Sources */,
 				EC792AC12A20F40100880E10 /* RepositoryListCell.swift in Sources */,
 			);
